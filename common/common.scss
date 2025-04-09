@@ -6,8 +6,12 @@
   color: $header-background;
   box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
 
+  a:visited {
+    color: $primary-medium;
+  }
+
   a {
-    color: $header-background;
+    color: $primary;
   }
 
   .badge-category::before {
@@ -33,7 +37,7 @@
   }
 }
 
-span.category-topics--posts-count {
+span.category-topics--unread-posts {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -47,9 +51,9 @@ span.category-topics--posts-count {
   border-radius: 50%;
 }
 
-span.category-topics--posts-count:not(:empty) {
+span.category-topics--unread-posts:not(:empty) {
   padding: 0 6px;
 }
-span.category-topics--posts-count:empty {
+span.category-topics--unread-posts:empty {
   padding: 0;
 }

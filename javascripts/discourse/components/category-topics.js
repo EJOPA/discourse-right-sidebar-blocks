@@ -27,8 +27,8 @@ export default class CategoryTopics extends Component {
 
       results.forEach((topic) => {
         topic.url = `${getURL("/t/")}${topic.slug}/${topic.id}`;
-        if (topic.last_read_post_number > 0) {
-          topic.url += `/${topic.last_read_post_number}`;
+        if (topic.unread_posts > 0) {
+          topic.url += `/${topic.last_read_post_number + 1}`;
         }
       });
 
