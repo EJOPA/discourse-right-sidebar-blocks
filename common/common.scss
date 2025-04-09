@@ -1,6 +1,6 @@
 // Theme's SCSS
 .rs-component {
-  border: 5px solid $header-background;
+  border: 3px solid $header-background;
   padding: 10px; /* Adds space inside the border */
   margin: 10px; /* Adds space between components */
   color: $header-background;
@@ -34,6 +34,26 @@
   }
   a.category-topics--topic[href^="/t/about-the"] {
     display: none;
+  }
+  .jeppeson-logo {
+    width: 100%; /* Make the div take the full width of its parent */
+    height: 100%; /* Make the div take the full height of its parent */
+    display: block; /* Ensure the div behaves as a block-level element */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: hidden; /* Hide any image overflow */
+  }
+
+  .jeppeson-logo img {
+    width: 100%; /* Make the image take the full width of its parent */
+    height: 100%; /* Make the image take the full height of its parent */
+    object-fit: contain; /* Make the image resize while maintaining its aspect ratio */
+    display: block; /*Remove the default padding*/
+  }
+  .member-benefits {
+    font-size: 0.8em;
+  }
+  .discounts {
+    font-size: 0.75em;
   }
 }
 
