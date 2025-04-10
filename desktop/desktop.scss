@@ -23,7 +23,7 @@
 }
 
 .rs-component {
-  margin-bottom: 1.5em;
+  margin-bottom: -3px; // match to width of lines
   h3 {
     border-bottom: 1px solid var(--primary-low);
     padding-bottom: 0.5em;

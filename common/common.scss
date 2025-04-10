@@ -1,22 +1,26 @@
 // Theme's SCSS
+$header_background_darker: darken($header_background, 30%);
+$header_background_lighter: lighten($header_background, 30%);
+
 .rs-component {
   border: 3px solid $header-background;
   padding: 10px; /* Adds space inside the border */
-  margin: 10px; /* Adds space between components */
+  margin: 0px; /* Adds space between components */
   color: $header-background;
   box-sizing: border-box; /* Ensures padding and border are included in the element's width and height */
 
-  a:visited {
-    color: $primary-medium;
-  }
-
   a {
-    color: $primary;
+    color: $header_background;
   }
 
+  a:visited {
+    color: $header-background_lighter;
+  }
+
+  .badge-category__name,
   .app-links h3 {
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0.5em;
     color: $header-background;
   }
@@ -57,8 +61,10 @@
   }
   .badge-category__wrapper {
     // make bigger and bold
-    font-size: #{$sidebar_heading_font_size}em;
-    font-weight: #{$sidebar_heading_font_weight};
+    // font-size: #{$sidebar_heading_font_size}em;
+    // font-weight: #{$sidebar_heading_font_weight};
+    font-size: 1em;
+    font-weight: 700;
   }
   .not-sidebar-image {
     max-height: 300px;
