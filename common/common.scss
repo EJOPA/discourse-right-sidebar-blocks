@@ -43,8 +43,8 @@ $header_background_lighter: lighten($header_background, 30%);
   }
 
   .android img {
-    max-width: 110%;
-    max-height: 110%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     display: block;
   }
