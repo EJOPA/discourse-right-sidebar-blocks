@@ -9,8 +9,8 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "jeppeson-logo": "assets/Jeppesen_logo_wht.jpg"
-    "google-play"  : "assets/GetItOnGooglePlay_Badge_web_color_English.png"
+    "jeppeson-logo": "assets/Jeppesen_logo_wht.jpg",
+    "google-play": "assets/GetItOnGooglePlay_Badge_web_color_English.png"
   },
   "modifiers": {}
 }
