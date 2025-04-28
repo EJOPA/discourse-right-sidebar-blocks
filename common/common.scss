@@ -17,6 +17,19 @@ $header_background_lighter: lighten($header_background, 30%);
     color: $header-background_lighter;
   }
 
+  .category-list__container {
+    // display like topic links
+    // color: purple;
+
+    a span.badge-category__name {
+      font-size: 16px;
+      font-weight: 100;
+      color: $header-background;
+      margin-bottom: 0px;
+    }
+  }
+
+  .category-list__heading,
   .badge-category__name,
   .app-links h3 {
     font-size: 1em;

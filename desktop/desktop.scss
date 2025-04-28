@@ -31,6 +31,9 @@
   }
 }
 
+.cateogry-topics--content.badge-category__name {
+  border-bottom: 1px solid var(--primary-low);
+}
 // Top contributors
 .top-contributors--user {
   margin-bottom: 0.5em;
