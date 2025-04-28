@@ -29,6 +29,7 @@ $header_background_lighter: lighten($header_background, 30%);
       // cut text off if it won't fit
       text-overflow: ellipsis;
       overflow: hidden;
+      display: inline-block;
     }
   }
 
