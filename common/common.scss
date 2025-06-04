@@ -14,7 +14,8 @@ $header_background_lighter: lighten($header_background, 30%);
   }
 
   a:visited {
-    color: $header-background_lighter;
+    // WAS: color: $header-background_lighter;
+    color: $header-background;
   }
 
   .category-list__container {
