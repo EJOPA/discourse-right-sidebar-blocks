@@ -1,7 +1,7 @@
 {
   "name": "Right Sidebar Blocks",
   "component": true,
-  "authors": "Discourse",
+  "authors": "Discourse + Pfaffman's customizations",
   "license_url": "https://github.com/discourse/discourse-right-sidebar-blocks/blob/main/LICENSE",
   "about_url": "https://meta.discourse.org/t/right-sidebar-blocks/231067",
   "learn_more": "TODO",
